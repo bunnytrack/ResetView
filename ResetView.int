@@ -1,0 +1,2 @@
+[Public]
+Object=(Name=ResetView.ResetView,Class=Class,MetaClass=Engine.Mutator,Description="Reset View,Go back to your own player's view after spectating teammates using the console command 'mutate resetview'")
