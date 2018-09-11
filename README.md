@@ -5,17 +5,20 @@ No more spamming "F5".
 
 ## Installation
 
-1. Add `.u` file(s) to `UT/System/`.
+### Online (Servers)
+
+1. Copy `.u` file to `UT/System/`
 2. In `UnrealTournament.ini`, add:  
    `ServerActors=ResetView.ResetView`
    
-To run this mod as a mutator, add this to your game/server's mutator string:  
-`ResetView.ResetView`
+### Offline (Single Player)
+1. Copy `.u` and `.int` files to `UT/System/`
+2. Add the "Reset View" mutator when starting your game
 
 ## Usage In-game
 
-1. Spectate someone (UT's default key: F5)
-2. Open console or press Tab
+1. Spectate a teammate (UT's default key: F5)
+2. Open console (or press Tab)
 3. Type `mutate resetview`
 
 To bind to a key (e.g. F6):  
